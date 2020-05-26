@@ -1,0 +1,102 @@
+/*  #FFA62B orange peel (header and footer)
+    #EDE7E3 platinum (background)
+    #82C0CC middle blue ()
+    #489FB5 Blue Green ()
+    #16697A Ming ()
+
+    need 1 for:
+    - text color
+    - box color
+    - heading color */
+
+body {
+  background-color: #FFA62B;
+}
+
+
+header {
+  background-color: #FFA62B;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  color: #16697A;
+}
+
+.restaurant-info {
+  background-color: cyan;
+  height: 500px;
+  background-size: cover;
+  background-image: url("https://hips.hearstapps.com/del.h-cdn.co/assets/15/38/2048x2048/square-1442259703-country-crock-stuffed-potatoes.jpg?resize=980:*")
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 450px;
+  justify-content: center;
+  column-gap: 30px;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 10px solid #EDE7E3;
+
+}
+
+.menu img {
+  width: 100%;
+  height: auto;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+h2 {
+
+  background-color: #FFA62B;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  color: #16697A;
+  text-align: center;
+  border-top: 10px solid #EDE7E3;
+  border-bottom: 10px solid #EDE7E3;
+}
+
+figcaption {
+  text-align: left;
+}
+
+.flavor-text, label, footer {
+  color: #EDE7E3;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.price {
+  color: #489FB5;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: monospace;
+  color: #16697A;
+  font-size: 25px;
+  border-left: 5px solid #EDE7E3;
+  border-right: 5px solid #EDE7E3;
+}
+
+form {
+text-align: center;
+}
+
+footer {
+  text-align: center;
+}

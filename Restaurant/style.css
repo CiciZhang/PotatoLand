@@ -100,3 +100,11 @@ text-align: center;
 footer {
   text-align: center;
 }
+
+@media screen (max-width: 500px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

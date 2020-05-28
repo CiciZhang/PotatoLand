@@ -102,13 +102,12 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .menu {
+  .menu, #wrapper {
     display: flex;
     flex-direction: column;
   }
 
-  body {
-    background-color: blue;
-  }
+
+
 
 }

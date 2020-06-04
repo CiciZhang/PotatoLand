@@ -722,6 +722,7 @@ footer p {
     padding: 10px;
     margin: 20px;
     display: block;
+    max-width: 600px;
   }
 
   #message {
@@ -740,6 +741,7 @@ footer p {
     align-items: center;
 
   }
+
 
   #submit {
     border: 0;

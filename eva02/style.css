@@ -721,6 +721,11 @@ footer p {
     color: #FFFFFF;
   }
 
+  #message {
+    height: 200px;
+    min-width: 0;
+  }
+
   footer p {
     background-color: #0E191E;
     text-align: center;

@@ -669,9 +669,9 @@ form {
 
   .underlay {
     height: 400px;
-    width: 260px;
+    width: 250px;
     top: -190px;
-    left: 55px;
+    left: 60px;
     content: '';
     position: absolute;
     background-color: #88dae3;

@@ -726,7 +726,6 @@ footer p {
   }
 
   #message {
-    width: 400px;
     padding-bottom: 100px;
   }
 
@@ -739,7 +738,6 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
 
 

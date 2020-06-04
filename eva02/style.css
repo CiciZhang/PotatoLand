@@ -616,6 +616,7 @@ form {
 
   /* segment 5 */
 
+
   .blogpost2 {
     display: flex;
     position: relative;
@@ -654,7 +655,7 @@ form {
 
   .blogpost2 img {
     max-height: 460px;
-    position: absolute;
+    position: relative;
     z-index: 10;
     top: -100px;
     left: 100px;
@@ -664,7 +665,7 @@ form {
     height: 460px;
     width: 260px;
     content: '';
-    position: absolute;
+    position: relative;
     left: 150px;
     top: -80px;
     background-color: #88dae3;
@@ -698,5 +699,4 @@ form {
     margin-bottom: 0;
     margin-top: 0;
   }
-
 }

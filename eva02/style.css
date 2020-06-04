@@ -645,7 +645,6 @@ footer p {
     position: relative;
     justify-content: center;
     flex-direction: column;
-
   }
 
   .rightside {
@@ -659,7 +658,6 @@ footer p {
   .rightside .bodytext {
     display: flex;
   }
-
 
   .blogpost2 .bbutton {
     background: #00476A;
@@ -677,7 +675,6 @@ footer p {
     padding-top: 300px;
     margin: 0;
   }
-
 
   .blogpost2 img {
     max-height: 460px;
@@ -708,8 +705,6 @@ footer p {
     height: auto;
     justify-content: space-between;
     padding: 50px;
-
-
   }
 
 
@@ -737,6 +732,10 @@ footer p {
     font-size: 30px;
     margin-bottom: 0;
     margin-top: 0;
+  }
+
+  #message {
+    max-width: 50px;
   }
 
 }

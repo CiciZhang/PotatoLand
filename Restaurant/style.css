@@ -104,6 +104,8 @@ footer {
   text-align: center;
 }
 
+
+
 @media screen and (max-width: 600px) {
   .menu, #wrapper {
     display: flex;
@@ -112,5 +114,9 @@ footer {
 
   body{
       overflow-x:hidden;
+  }
+
+  textarea {
+    max-width: 600px;
   }
 }

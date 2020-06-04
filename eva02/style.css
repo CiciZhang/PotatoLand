@@ -336,7 +336,7 @@ form {
   padding: 10px;
   margin: 20px;
   display: flex;
-  width: 200px;
+  width: 150px;
 }
 
 .name-email {
@@ -347,7 +347,7 @@ form {
 
 #message {
 padding-bottom: 100px;
-min-width: 460px;
+min-width: 360px;
 }
 
 form h2 {

@@ -735,7 +735,7 @@ footer p {
   }
 
   .name-email {
-    width: 400px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -657,8 +657,6 @@ form {
     max-height: 460px;
     position: relative;
     z-index: 10;
-    top: -100px;
-    left: 100px;
   }
 
   .underlay {
@@ -666,8 +664,6 @@ form {
     width: 260px;
     content: '';
     position: relative;
-    left: 150px;
-    top: -80px;
     background-color: #88dae3;
     z-index: 9;
   }

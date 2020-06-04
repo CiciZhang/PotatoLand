@@ -664,14 +664,14 @@ form {
     position: absolute;
     z-index: 10;
     top: -200px;
-    left:20px;
+    left:30px;
   }
 
   .underlay {
     height: 400px;
     width: 260px;
     top: -190px;
-    left: 20px;
+    left: 30px;
     content: '';
     position: absolute;
     background-color: #88dae3;

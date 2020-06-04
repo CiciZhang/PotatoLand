@@ -713,21 +713,6 @@ footer p {
 
   }
 
-  #message, #email, #name {
-    background-color: #222428;
-    border: 2px solid #00C6FF;
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    color: white;
-    padding: 10px;
-    margin: 20px;
-    display: block;
-    max-width: 400px;
-  }
-
-  #message {
-    padding-bottom: 100px;
-  }
 
   form h2 {
     color: white;

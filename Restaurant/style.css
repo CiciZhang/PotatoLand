@@ -11,6 +11,7 @@
 
 body {
   background-color: #FFA62B;
+  margin:0;
 }
 
 
@@ -110,7 +111,7 @@ footer {
     flex-direction: column;
   }
 
-
-
-
+  body{
+      overflow-x:hidden;
+  }
 }

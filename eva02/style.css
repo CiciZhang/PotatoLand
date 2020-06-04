@@ -702,6 +702,7 @@ footer p {
     height: auto;
     justify-content: space-between;
     padding: 50px;
+    width: auto;
   }
 
 
@@ -719,11 +720,7 @@ footer p {
     padding-left: 40px;
     padding-right:40px;
     color: #FFFFFF;
-  }
-
-  #message {
-    height: 200px;
-    max-width: 100px;
+    display: block;
   }
 
   footer p {

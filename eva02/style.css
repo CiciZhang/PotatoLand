@@ -325,8 +325,6 @@ form {
   height: auto;
   justify-content: space-between;
   padding: 50px;
-
-
 }
 
 #message, #email, #name {
@@ -337,7 +335,7 @@ form {
   color: white;
   padding: 10px;
   margin: 20px;
-  display: block;
+  display: flex;
   width: 200px;
 }
 
@@ -386,7 +384,6 @@ footer p {
     display: flex;
     flex-direction: column;
   }
-
 
   h2 {
     text-transform: uppercase;
@@ -733,9 +730,4 @@ footer p {
     margin-bottom: 0;
     margin-top: 0;
   }
-
-  #message {
-    max-width: 50px;
-  }
-
 }

@@ -366,7 +366,7 @@ form {
   .body {
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   h2 {

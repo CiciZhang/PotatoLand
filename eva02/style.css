@@ -338,25 +338,24 @@ form {
   padding: 10px;
   margin: 20px;
   display: block;
+  width: 200px;
 }
 
 .name-email {
   flex-direction: row;
   display: flex;
+  align-content: stretch;
 }
 
 #message {
-width: 870px;
 padding-bottom: 100px;
+min-width: 460px;
 }
 
 form h2 {
   color: white;
 }
 
-#email, #name {
-  width: 400px;
-}
 
 #submit {
   border: 0;
@@ -716,25 +715,6 @@ footer p {
 
   form h2 {
     color: white;
-  }
-
-  .name-email {
-    width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #message, #email, #name {
-    background-color: #222428;
-    border: 2px solid #00C6FF;
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    color: white;
-    padding: 10px;
-    margin: 20px;
-    display: block;
-    width: auto;
   }
 
   #submit {

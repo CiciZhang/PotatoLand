@@ -345,10 +345,10 @@ form {
   align-content: stretch;
 }
 
-#message {
+/* #message {
 padding-bottom: 100px;
 width: 360px;
-}
+} */
 
 form h2 {
   color: white;
@@ -705,7 +705,6 @@ footer p {
     width: auto;
   }
 
-
   form h2 {
     color: white;
   }
@@ -720,7 +719,6 @@ footer p {
     padding-left: 40px;
     padding-right:40px;
     color: #FFFFFF;
-    display: block;
   }
 
   footer p {

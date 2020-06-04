@@ -1,9 +1,3 @@
-/*
-font
-font-family: 'Lato', sans-serif;
-font-family: 'Sirin Stencil', cursive;
-*/
-
 body {
   display: flex;
   flex-flow: column;
@@ -345,10 +339,10 @@ form {
   align-content: stretch;
 }
 
-/* #message {
+#message {
 padding-bottom: 100px;
 width: 360px;
-} */
+}
 
 form h2 {
   color: white;

@@ -121,7 +121,7 @@ h3 {
   position: absolute;
   width: 100px;
   top: 620px;
-  left: 650px;
+  left: 750px;
 }
 
 .bar-left{
@@ -132,7 +132,7 @@ h3 {
   position: absolute;
   width: 100px;
   top: 620px;
-  left: 470px;
+  left: 600px;
   z-index: 10;
 }
 

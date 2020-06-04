@@ -1,0 +1,766 @@
+/*
+font
+font-family: 'Lato', sans-serif;
+font-family: 'Sirin Stencil', cursive;
+*/
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #00476A;
+}
+
+#logo {
+  font-family: 'Sirin Stencil', cursive;
+  font-size: 30px;
+  padding-left: 40px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.bbutton {
+  border: 0;
+  background: #00476A;
+  font-family: font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right:40px;
+  color: #FFFFFF;
+  margin-left: 40px;
+}
+
+.wbutton {
+  border: 0;
+  background: transparent;
+  font-family: font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  margin: 10px;
+  color:#00476A;
+}
+
+.bbutton:hover {
+  border: 2px solid #00C6FF;
+  background-color: #FFFFFF;
+  color: #00476A;
+}
+
+header .wbutton:hover {
+  border-bottom: 2px solid #00C6FF;
+}
+
+nav {
+  padding-right: 40px;
+  justify-content: space-between;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* segment 2 */
+
+.banner {
+  justify-content: flex-start;
+  padding: 0;
+  min-height: 500px;
+}
+
+
+h1 {
+  font-family: 'Sirin Stencil', cursive;
+  font-size: 76px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  color: #00476A;
+  margin-top: 0;
+}
+
+.banner img {
+  width: 100%;
+  height: 600px;
+  z-index: -100;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+.banner .bbutton {
+  top: 300px;
+  display: inline-block;
+}
+
+/* segment 3 */
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  border-bottom: 2px solid #00C6FF;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* right blocker */
+
+.bar-right{
+  content: "";
+  height: 5px;
+  width: 10px;
+  background-color: white;
+  position: absolute;
+  width: 100px;
+  top: 620px;
+  left: 630px;
+}
+
+.bar-left{
+  content: "";
+  height: 5px;
+  width: 10px;
+  background-color: white;
+  position: absolute;
+  width: 100px;
+  top: 620px;
+  left: 470px;
+  z-index: 10;
+}
+
+
+h2 {
+  font-family: 'Sirin Stencil', cursive;
+  font-size: 35px;
+  margin: auto;
+}
+
+.bodytext {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+
+}
+
+.blogpost1 {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.blogpost1 p {
+  max-width: 60%;
+  position: relative;
+}
+
+.arrow-left {
+  width: 30px;
+  height:30px;
+  background: #000;
+  position: relative;
+  transform: rotate(-45deg);
+  top: 50%;
+  left: 20px;
+  border-radius: 3px;
+}
+
+.arrow-left::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height:40px;
+  background: #fff;
+  top:10px;
+  left: 10px;
+}
+
+.arrow-right {
+  width: 30px;
+  height:30px;
+  background: #000;
+  position: relative;
+  transform: rotate(-45deg);
+  top: 50%;
+  left: 20px;
+  border-radius: 3px;
+}
+
+.arrow-right::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height:40px;
+  background: #fff;
+  bottom:10px;
+  right: 10px;
+}
+
+/* segment 4 */
+
+.latestadventure {
+  background-color: #dff5f7;
+  display: flex;
+  justify-content: center;
+  max-height: 500px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.latestadventure img {
+  max-height: 60%;
+  display: flex;
+  align-self: center;
+}
+
+.latestadventure h4 {
+  background-color: #222428;
+  position:absolute;
+  top: 250px;
+  left: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 100;
+  text-transform: uppercase;
+}
+
+.latestadventure h2 {
+  position:absolute;
+  z-index: 99;
+  top: 90px;
+}
+
+/* segment 5 */
+
+.blogpost2 {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+
+}
+
+.rightside {
+  max-width: 40%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rightside .bodytext {
+
+  display: flex;
+  align-self: flex-start;
+  padding: 20px;
+}
+
+
+.blogpost2 .bbutton {
+  background: #00476A;
+  font-family: font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right:40px;
+  color: #FFFFFF;
+  align-self: center;
+
+
+}
+
+.blogpost2 h2 {
+  display: flex;
+  align-self: center;
+}
+
+
+.blogpost2 img {
+  max-height: 460px;
+  position: absolute;
+  top: -50px;
+  left: 150px;
+  z-index: 10;
+}
+
+.underlay {
+  height: 460px;
+  width: 260px;
+  content: '';
+  position: absolute;
+  left: 200px;
+  top: -30px;
+  background-color: #88dae3;
+  z-index: 9;
+}
+
+/* segment 6  */
+
+form {
+  background-color: #222428;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  justify-content: space-between;
+  padding: 50px;
+
+
+}
+
+#message, #email, #name {
+  background-color: #222428;
+  border: 2px solid #00C6FF;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  display: block;
+}
+
+.name-email {
+  flex-direction: row;
+  display: flex;
+}
+
+#message {
+width: 870px;
+padding-bottom: 100px;
+}
+
+form h2 {
+  color: white;
+}
+
+#email, #name {
+  width: 400px;
+}
+
+#submit {
+  border: 0;
+  background: #00476A;
+  font-family: font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right:40px;
+  color: #FFFFFF;
+}
+
+footer p {
+  background-color: #0E191E;
+  text-align: center;
+  color: white;
+  font-family: 'Sirin Stencil', cursive;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* media query time  */
+
+@media screen and (max-width: 600px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  h2 {
+    text-transform: uppercase;
+    color: #00476A;
+  }
+
+  #logo {
+    font-family: 'Sirin Stencil', cursive;
+    font-size: 30px;
+    padding-left: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .bbutton {
+    border: 0;
+    background: #00476A;
+    font-family: font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right:40px;
+    color: #FFFFFF;
+    margin-left: 40px;
+  }
+
+  .wbutton {
+    border: 0;
+    background: transparent;
+    font-family: font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    color:#00476A;
+  }
+
+  .bbutton:hover {
+    border: 2px solid #00C6FF;
+    background-color: #FFFFFF;
+    color: #00476A;
+  }
+
+  header .wbutton:hover {
+    border-bottom: 2px solid #00C6FF;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .bar-right {
+    content: "";
+    height: 5px;
+    width: 10px;
+    background-color: white;
+    position: absolute;
+    width: 100px;
+    top: 620px;
+    left: 100px;
+  }
+
+  .bar-left {
+    content: "";
+    height: 5px;
+    width: 10px;
+    background-color: white;
+    position: absolute;
+    width: 100px;
+    top: 620px;
+    left: 350px;
+    z-index: 10;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* segment 2 */
+
+  .banner {
+    justify-content: flex-start;
+    padding: 0;
+    min-height: 500px;
+  }
+
+
+  h1 {
+    font-family: 'Sirin Stencil', cursive;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: #00476A;
+    margin-top: 0;
+    max-width: 50%;
+  }
+
+  .banner img {
+    width: 100%;
+    height: 600px;
+    z-index: -100;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+  }
+
+  .banner .bbutton {
+    top: 300px;
+    display: inline-block;
+  }
+
+  /* segment 3 */
+
+  h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+  }
+
+  h2 {
+    font-family: 'Sirin Stencil', cursive;
+    font-size: 35px;
+    margin: auto;
+  }
+
+  .bodytext {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+
+  }
+
+  .blogpost1 {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px
+
+  }
+
+  .blogpost1 .bbutton {
+    margin: 0;
+  }
+
+  .blogpost1 p {
+    max-width: 60%;
+    order: 1;
+  }
+
+  .arrow-left {
+    order: 2;
+    width: 30px;
+    height:30px;
+    background: #000;
+    position: relative;
+    transform: rotate(-45deg);
+    top: 30px;
+    left: -50px;
+    border-radius: 3px;
+  }
+
+  .arrow-left::after {
+    order: 2;
+    content: '';
+    position: absolute;
+    width: 40px;
+    height:40px;
+    background: #fff;
+    top:10px;
+    left: 10px;
+  }
+
+  .arrow-right {
+    order: 2;
+    width: 30px;
+    height:30px;
+    background: #000;
+    position: relative;
+    transform: rotate(-45deg);
+    top: 50%;
+    left: 20px;
+    border-radius: 3px;
+  }
+
+  .arrow-right::after {
+    order:2;
+    content: '';
+    position: absolute;
+    width: 40px;
+    height:40px;
+    background: #fff;
+    bottom:10px;
+    right: 10px;
+  }
+
+  /* segment 4 */
+
+  .latestadventure {
+    background-color: #dff5f7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 5000px;
+    padding-top: 50px;
+    position: relative;
+  }
+
+  .latestadventure img {
+    max-height: 300px;
+    display: flex;
+    align-self: center;
+  }
+
+  .latestadventure h4 {
+    background-color: #222428;
+    position:absolute;
+    top: 250px;
+    left: 150px;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 100;
+    text-transform: uppercase;
+  }
+
+  .latestadventure h2 {
+    position:absolute;
+    padding-bottom:200px;
+    z-index: 99;
+    top: 60px;
+    left: 155px;
+  }
+
+  .circle-last {
+    padding-bottom: 200px;
+  }
+
+  /* segment 5 */
+
+  .blogpost2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .rightside {
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .rightside .bodytext {
+    display: flex;
+  }
+
+
+  .blogpost2 .bbutton {
+    background: #00476A;
+    display: flex;
+    font-family: font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    margin:0;
+  }
+
+  .blogpost2 h2 {
+    display: flex;
+    padding-top: 300px;
+    margin: 0;
+  }
+
+
+  .blogpost2 img {
+    max-height: 460px;
+    position: absolute;
+    z-index: 10;
+    top: -100px;
+    left: 100px;
+  }
+
+  .underlay {
+    height: 460px;
+    width: 260px;
+    content: '';
+    position: absolute;
+    left: 150px;
+    top: -80px;
+    background-color: #88dae3;
+    z-index: 9;
+  }
+
+  /* segment 6  */
+
+  form {
+    background-color: #222428;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
+    padding: 50px;
+
+
+  }
+
+  #message, #email, #name {
+    background-color: #222428;
+    border: 2px solid #00C6FF;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    display: block;
+  }
+
+  #message {
+    width: 400px;
+    padding-bottom: 100px;
+  }
+
+  form h2 {
+    color: white;
+  }
+
+  .name-email {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  #submit {
+    border: 0;
+    background: #00476A;
+    font-family: font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right:40px;
+    color: #FFFFFF;
+  }
+
+  footer p {
+    background-color: #0E191E;
+    text-align: center;
+    color: white;
+    font-family: 'Sirin Stencil', cursive;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+}

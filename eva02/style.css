@@ -311,44 +311,9 @@ h2 {
 
 /* segment 6  */
 
-form {
-  background-color: #222428;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: auto;
-  justify-content: space-between;
-  padding: 50px;
-}
-
-#message, #email, #name {
-  background-color: #222428;
-  border: 2px solid #00C6FF;
-  font-family: 'Lato', sans-serif;
-  font-size: 15px;
-  color: white;
-  padding: 10px;
-  margin: 20px;
-  display: flex;
-  width: 150px;
-}
-
-.name-email {
-  flex-direction: row;
-  display: flex;
-  align-content: stretch;
-}
-
-#message {
-padding-bottom: 100px;
-width: 360px;
-height: 10%;
-}
-
 form h2 {
   color: white;
 }
-
 
 #submit {
   border: 0;
@@ -370,6 +335,26 @@ footer p {
   font-size: 30px;
   margin-bottom: 0;
   margin-top: 0;
+}
+
+/* how it looks */
+#name, #message, #email {
+  border: 2px solid #00C6FF;
+  background-color: transparent;
+  color: white;
+  font-family: font-family: 'Lato', sans-serif;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+
+form {
+  background-color: #222428;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
 }
 
 /* media query time  */
@@ -688,17 +673,6 @@ footer p {
   }
 
   /* segment 6  */
-
-  form {
-    background-color: #222428;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    height: auto;
-    padding: 50px;
-    width: auto;
-  }
 
   form h2 {
     color: white;

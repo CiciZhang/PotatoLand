@@ -92,7 +92,6 @@ h1 {
 
 .banner .bbutton {
   top: 300px;
-  display: inline-block;
 }
 
 /* segment 3 */
@@ -360,11 +359,12 @@ form {
 
 /* media query time  */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   body {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   html, body {
@@ -375,6 +375,7 @@ form {
   h2 {
     text-transform: uppercase;
     color: #00476A;
+    margin: 0;
   }
 
   #logo {
@@ -486,7 +487,7 @@ form {
 
   .banner .bbutton {
     top: 300px;
-    display: inline-block;
+
   }
 
   /* segment 3 */
@@ -618,6 +619,7 @@ form {
     padding-bottom:200px;
     z-index: 99;
     top: 60px;
+    left: 50%;
 
   }
 

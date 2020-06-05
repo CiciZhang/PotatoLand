@@ -652,7 +652,7 @@ form {
   }
 
   .blogpost2 h2 {
-    padding-top: 200px;
+    padding-top: 50px;
     display: flex;
     margin: 0;
   }
@@ -665,7 +665,7 @@ form {
   }
 
   .blogpost2 img {
-    max-height: 400px;
+    max-height: 250px;
     position: absolute;
     z-index: 10;
     top: -200px;
@@ -673,10 +673,10 @@ form {
   }
 
   .underlay {
-    height: 400px;
-    width: 250px;
+    height: 250px;
+    width: 150px;
     top: -190px;
-    left: 60px;
+    left: 70px;
     content: '';
     position: absolute;
     background-color: #88dae3;

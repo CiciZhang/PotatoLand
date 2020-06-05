@@ -417,6 +417,10 @@ form {
 
   nav {
     display: none;
+    margin: 0;
+    background-color: black;
+    padding:0;
+    font-size: 1px;
   }
 
   .bar-right {
@@ -583,6 +587,7 @@ form {
     max-height: 5000px;
     padding-top: 50px;
     position: relative;
+    display: none;
   }
 
   .latestadventure img {
@@ -626,6 +631,7 @@ form {
     display: flex;
     justify-content: center;
     flex-direction: column;
+      display: none;
   }
 
   .rightside {

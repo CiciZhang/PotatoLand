@@ -280,8 +280,6 @@ h2 {
   padding-right:40px;
   color: #FFFFFF;
   align-self: center;
-
-
 }
 
 .blogpost2 h2 {
@@ -367,8 +365,11 @@ form {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+  }
+
+  html, body {
+    max-width: 100%;
     overflow-x: hidden;
-    overflow-y: scroll;
   }
 
   h2 {

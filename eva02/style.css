@@ -115,7 +115,7 @@ h3 {
   position: absolute;
   width: 100px;
   top: 620px;
-  left: 750px;
+  /* left: 750px; issue*/ 
 }
 
 .bar-left{

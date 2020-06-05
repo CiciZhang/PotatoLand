@@ -111,11 +111,12 @@ h3 {
   content: "";
   height: 5px;
   width: 10px;
-  background-color: white;
+  background-color: black;
+  z-index: 200;
   position: absolute;
   width: 100px;
   top: 620px;
-  /* left: 750px; issue*/ 
+  /* left: 750px; issue*/
 }
 
 .bar-left{

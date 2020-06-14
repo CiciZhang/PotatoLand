@@ -1,0 +1,372 @@
+/* global*/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 1000px;
+  margin: 0;
+  position: relative;
+}
+
+button {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  border: 0;
+  background: transparent;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+button:hover {
+  border-bottom: 1px solid #D64C31;
+}
+
+/* header */
+header {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px;
+  width: 1000px;
+}
+
+header img {
+  padding-right: 50px;
+  width: 300px;
+}
+
+/* banner */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.banner img {
+  position: relative;
+  max-width: 1000px;
+  padding-bottom: 100px;
+}
+
+.techchallengebox {
+  background-color: #D64C31;
+  width: 400px;
+  position: absolute;
+  top: 370px;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #FFFFFF;
+  margin: 5px;
+  font-weight: 500;
+}
+
+ .techchallengebox p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 5px;
+  font-weight: 400;
+}
+
+/* welcome */
+
+.welcome {
+  background-color: #E8F1EE;
+  width: 1000px;
+  position: relative;
+}
+
+#bg {
+  position: absolute;
+  right: 0px;
+  width: 1000px;
+  background-color: #E8F1EE;
+  height: 680px;
+  z-index: -99;
+  top: 735px;
+}
+
+.welcome-text {
+  padding: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #4A455C;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #D64C31;
+}
+
+.welcome-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #4A455C;
+  font-weight: 500;
+  margin: 0;
+}
+
+.welcome-text img {
+  width: 800px;
+}
+
+.nav-arrows {
+  display: flex;
+  position: absolute;
+  right: 100px;
+  top: 130px;
+}
+
+.arrow {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  background-color:#D64C31;
+  padding: 20px;
+}
+
+.line {
+  margin-top: 10px;
+  width: 28px;
+  background-color: #FFFFFF;
+  height: 5px;
+  float: right;
+  position: absolute;
+  z-index: 1;
+}
+
+.point-left {
+  width: 25px;
+  height: 25px;
+  background-color: #FFFFFF;
+  transform: rotate(45deg);
+  float: left;
+}
+
+.point-left::after {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background-color: #D64C31;
+  position: absolute;
+  index:1px;
+  left: 5px;
+  bottom: 5px;
+  z-index: 0;
+}
+
+.point-right {
+  width: 25px;
+  height: 25px;
+  background-color: #FFFFFF;
+  transform: rotate(45deg);
+  float: right;
+}
+
+.point-right::after {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background-color: #D64C31;
+  position: absolute;
+  index:1px;
+  right: 5px;
+  top: 5px;
+  z-index: 0;
+}
+
+/* courses */
+
+.courses {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+
+.box {
+  width: 475px;
+  background-color: #FFF0E7;
+  margin-bottom: 50px;
+  padding-bottom: 25px;
+}
+
+.box img {
+  width: 475px;
+}
+
+.box h4 {
+  color: #4A455C;
+  padding: 25px;
+  margin: 0;
+}
+
+.box h5 {
+  color: #D64C31;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  margin: 0;
+  font-size: 50px;
+  padding-left: 25px;
+}
+
+.box p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #4A455C;
+  font-weight: 400;
+  padding: 0px 25px;
+}
+
+/* footer */
+
+footer {
+  background-color: #D64C31;
+  width: 1000px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.footer-content {
+  width: 475px;
+  padding-top: 25px;
+}
+
+footer button {
+  color: #FFFFFF;
+  /* margin left 10 */
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.copyright {
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+footer button {
+  padding: 0px;
+  margin: 0px 15px 15px 0px;
+}
+
+footer button:hover {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+/* mailing list  */
+
+.mailing-list {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: #4A455C;
+  width: 400px;
+  height: 330px;
+  display: flex;
+}
+
+.mail-box {
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  bottom: 0px;
+  align-self: flex-end;
+}
+
+.mail-box h6 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.mail-box input {
+  padding: 15px;
+  border-radius: 3px;
+  margin: 15px 0px;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.mail-box button {
+  width: 100px;
+  background-color: #FFF0E7;
+  color: #4A455C;
+  padding: 15px;
+  border-radius: 3px;
+  margin: 0;
+
+}
+
+.mail-box p {
+  margin-bottom: 20px;
+}
+
+.icons {
+  margin:0;
+}
+
+i {
+  font-size: 30px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* footer background */
+#footerbg {
+  height: 300px;
+  width:100%;
+  position: absolute;
+  background-color:#D64C31;
+  bottom:0px;
+  z-index: -10;
+}
+
+
+
+/*
+Note: Font sizes are just for reference, you may adjust sizing to match design as needed*
+Nav & footer links: 24px / 400 regular / Montserrat
+Heading (Tech Challenge) : 84px / 500 medium / Cormorant Garamond
+Heading (Welcome to Juno): 75px / 500 medium / Montserrat
+Heading (Web Dev..., Team cult..., Java..., Student): 75px / 500 medium / Cormorant Garamond
+Body text: 22px / 400 regular / Montserrat
+Dates : 20px / 500 medium / Montserrat
+Buttons: 22px/ 500 medium / Montserrat
+Footer headings (Juno Tech Test, Join our mailling list): 30px / 500 medium / Montserrat */
+
+/* Fonts
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+*/

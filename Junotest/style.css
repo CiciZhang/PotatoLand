@@ -536,7 +536,7 @@
     align-items: center;
     width: 100%;
     max-width: 600px;
-    padding: 60px 0px 0px;
+    padding: 50px 0px 50px;
     margin: 0px;
   }
 
@@ -576,6 +576,7 @@
   }
 
   .mailing-list {
+    padding: 50px 0px 50px;
     background-color: #4A455C;
     width: 100%;
     max-width: 600px;

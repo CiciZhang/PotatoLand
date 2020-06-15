@@ -12,6 +12,10 @@
     position: relative;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   button {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -376,6 +380,10 @@
           overflow-x: hidden;
         }
 
+        a {
+          text-decoration: none;
+        }
+
         html {
           max-width: 600px;
           position: relative;
@@ -572,7 +580,6 @@
     color: #FFFFFF;
     padding: 10px 5px;
     margin: 0px 5px;
-
   }
 
   .mailing-list {

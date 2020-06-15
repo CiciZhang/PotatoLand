@@ -541,11 +541,7 @@
   }
 
   .footer-content nav {
-    justify-content: center;
     display: flex;
-    flex-direction: column;
-    right: 0px;
-    top: 0px;
     padding: 0px;
     margin: 30px 15px 15px;
   }
@@ -574,9 +570,10 @@
     border: 1px solid #FFFFFF;
     border-radius: 3px;
     background: transparent;
-    margin-left: 5px;
     color: #FFFFFF;
-    margin-right: 0px;
+    padding: 5px 10px;
+    margin: 0px 5px;
+
   }
 
   .mailing-list {

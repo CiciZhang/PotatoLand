@@ -542,8 +542,8 @@
 
   .footer-content nav {
     display: flex;
-    padding: 0px;
-    margin: 30px 15px 15px;
+    margin: 30px 20px 15px;
+    border: 2px solid black;
   }
 
   footer img {
@@ -571,7 +571,7 @@
     border-radius: 3px;
     background: transparent;
     color: #FFFFFF;
-    padding: 5px 10px;
+    padding: 5px;
     margin: 0px 5px;
 
   }

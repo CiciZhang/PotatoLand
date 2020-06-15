@@ -446,12 +446,14 @@
 
   /* header section */
   header img {
-    margin: 10px 0px;
+    margin: 20px 20px;
+    width: 100%;
   }
 
   /* banner */
 
   .techchallengebox {
+    padding: 20px;
     background-color: #D64C31;
     width: 100%;
     max-width: 600px;
@@ -480,7 +482,7 @@
   }
 
   .welcome img {
-    max-width: 500px;
+    width: 100%;
   }
 
   /* courses section */

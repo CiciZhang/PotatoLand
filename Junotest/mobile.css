@@ -1,0 +1,169 @@
+/* Global */
+
+      body {
+        width: 100%;
+        border: 2px red solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 600px;
+        margin:0px;
+      }
+
+      html {
+        border: 2px blue solid;
+        max-width: 600px;
+        position: relative;
+      }
+
+      nav, .banner img, #bg {
+        display: none;
+      }
+
+      header, section, footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-self: center;
+      }
+
+/* fonts */
+
+
+/* font-family: 'Cormorant Garamond', serif; */
+
+      h1, h5 {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 500;
+      }
+
+      p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+      }
+
+      h2, .welcome p, h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+      }
+
+/* font size */
+      h2  {
+        font-size: 40px;
+      }
+
+      h4 {
+        text-transform: uppercase;
+        font-size: 15px;
+      }
+
+      h5 {
+        font-size: 50px;
+        margin: 0px;
+      }
+
+/* font colour */
+
+      /* grey */
+
+      h2, .welcome p, .box h4 {
+        color: #4A455C;
+      }
+
+      /* white */
+
+      h1, .techchallengebox p {
+        color: #FFFFFF;
+      }
+
+      /* orange */
+      h4, h5 {
+        color: #D64C31;
+      }
+
+
+
+
+
+
+
+
+
+
+
+/* header section */
+header img {
+  margin: 10px 0px;
+}
+
+/* banner */
+
+.techchallengebox {
+  background-color: #D64C31;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 20px;
+}
+
+.techchallengebox p {
+  margin: 20px;
+}
+
+/* welcome section */
+
+.welcome {
+  border: 2px solid red;
+  width: 100%;
+  display: flex;
+  background-color: #E8F1EE;
+  align-items: center;
+}
+
+.welcome img {
+  max-width: 500px;
+}
+
+/* courses section */
+
+.courses {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF0E7;
+  border: 2px solid red;
+}
+
+.box img {
+  width: 100%;
+  align-self: center;
+}
+
+
+
+
+
+/*
+Note: Font sizes are just for reference, you may adjust sizing to match design as needed*
+Nav & footer links: 24px / 400 regular / Montserrat
+Heading (Tech Challenge) : 84px / 500 medium / Cormorant Garamond
+Heading (Welcome to Juno): 75px / 500 medium / Montserrat
+Heading (Web Dev..., Team cult..., Java..., Student): 75px / 500 medium / Cormorant Garamond
+Body text: 22px / 400 regular / Montserrat
+Dates : 20px / 500 medium / Montserrat
+Buttons: 22px/ 500 medium / Montserrat
+Footer headings (Juno Tech Test, Join our mailling list): 30px / 500 medium / Montserrat */
+
+/* Fonts
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+*/

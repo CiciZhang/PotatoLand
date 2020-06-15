@@ -396,17 +396,14 @@ i {
   }
 
   .banner img {
-    position: relative;
-    max-width: 1000px;
-    padding-bottom: 100px;
+    display: none;
   }
 
   .techchallengebox {
     background-color: #D64C31;
-    width: 400px;
-    position: absolute;
-    top: 370px;
-    padding: 40px;
+    width: 100%;
+    display: flex;
+
   }
 
   h1 {

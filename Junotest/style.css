@@ -332,7 +332,8 @@
 
   #sub-button {
     width: 100px;
-    background-color: #FFF0E7;
+    background-color: #FFD1AD;
+    /* this color is not in the design guide but it fits better than #FFF0E7 */
     color: #4A455C;
     padding: 15px;
     border-radius: 3px;

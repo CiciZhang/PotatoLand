@@ -378,13 +378,11 @@ i {
     justify-content: flex-start;
     align-items: center;
     margin: 30px;
-    width: 1000px;
+    width: 100%;
   }
 
   header img {
-    padding-right: 50px;
-    width: 300px;
-    padding-left: 5px;
+    display: none;
   }
 
   /* banner */

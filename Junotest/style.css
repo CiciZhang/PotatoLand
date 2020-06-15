@@ -564,10 +564,10 @@
   }
 
   .footer-content p {
-    width: 400px;
     font-size: 13px;
     text-align:center;
     margin: 10px 20px;
+    border: 2px solid red;
   }
 
   button {
@@ -609,9 +609,9 @@
 
   .mail-box p {
     align-self: center;
-    width: 400px;
     text-align: center;
     margin: 10px 20px;
+    border: 2px solid red;
   }
 
   i {

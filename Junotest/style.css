@@ -415,7 +415,7 @@
 
   /* font size */
         h2  {
-          font-size: 40px;
+          font-size: 35px;
         }
 
         h4, h6 {
@@ -485,7 +485,7 @@
     width: 100%;
   }
 
-  h4 {
+  .welcome-text h4 {
     margin: 20px 20px;
   }
 
@@ -567,6 +567,7 @@
     width: 400px;
     font-size: 13px;
     text-align:center;
+    margin: 10px 20px;
   }
 
   button {
@@ -610,7 +611,7 @@
     align-self: center;
     width: 400px;
     text-align: center;
-    margin: 0px 0px 10px;
+    margin: 10px 20px;
   }
 
   i {

@@ -372,11 +372,13 @@
           justify-content: center;
           max-width: 600px;
           margin:0px;
+          overflow-x: hidden;
         }
 
         html {
           max-width: 600px;
           position: relative;
+          overflow-x: hidden;
         }
 
         header nav, .banner img, #bg {

@@ -530,8 +530,9 @@
   }
 
   .footer-content nav {
-    justify-content: space-between;
-    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     right: 0px;
     top: 0px;
     padding: 0px;
@@ -540,7 +541,6 @@
 
   footer img {
     width: 200px;
-    position: absolute;
     left: 0px;
     top: 0px;
     margin: 15px 15px;
